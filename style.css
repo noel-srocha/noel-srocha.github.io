@@ -1,14 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
 header {
-    display: flex;
-    background: #01273d;
+    width: 100vw;
+    position: fixed;
+    padding: 10px 90px 10px 94px;
+    border-bottom: 7px solid #07A2DD;
+    background-color: #051465;
+    z-index: 999;
 }
 
-h1 {
+#header-content {
+    position: relative;
+}
+
+#header-content nav a {
     color: white;
+    text-decoration: none;
 }
 
-nav p {
-    display: inline-block;
-    margin: 2em;
-    color: white
+#landing-image div {
+    position: absolute;
+    top: 15em;
+    left: 6em;
+    z-index: 1;
+    color: white;
+    width: 40%;
+    text-align: center;
+    line-height: 70px;
+}
+
+#landing-image div h1 {
+    font-size: 40px;
+}
+
+#landing-image div h2 {
+    font-size: 32px;
+}
+
+#landing-image img {
+    width: 100%;
+    z-index: 0;
 }
