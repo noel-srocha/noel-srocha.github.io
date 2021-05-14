@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    background: #01273d;
+}
+
+h1 {
+    color: white;
+}
+
+nav p {
+    display: inline-block;
+    margin: 2em;
+    color: white
+}
